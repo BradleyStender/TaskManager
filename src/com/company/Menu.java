@@ -13,7 +13,7 @@ public class Menu {
     }
 
     protected static void mainMenu() {
-
+        Tasks task = new Tasks();
         greetings();
 
         Scanner input = new Scanner(System.in);
@@ -23,11 +23,13 @@ public class Menu {
             switch (input.nextInt()) {
                 //View tasks
                 case 1:
-
+                    task.viewTasks();
 
                     break;
                 //add task
                 case 2:
+
+                    task.addingTasks();
 
                     break;
                 //remove task

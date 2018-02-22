@@ -1,12 +1,12 @@
 package com.company;
 
 public class Main {
-    public static Menu menu;
+     public static Menu menu;
 
-    public static void main() {
+    public static void main(String[] args) {
 
-        menu = new Menu();
-        Menu.mainMenu();
+         menu = new Menu();
+      Menu.mainMenu();
 
     }
 
